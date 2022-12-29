@@ -1,0 +1,92 @@
+<!doctype html>
+
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+
+    <meta name="description" content="Randomizer">
+
+    <meta name="keywords" content="lets have fun">
+
+    <title>randomizer</title>
+
+    <!-- external CSS link -->
+
+
+
+    <style>
+        body {
+
+            background-image: url(https://images2.alphacoders.com/117/1179072.jpg);
+            /* hexadecimal number */
+            color: aliceblue;
+            padding: 130px;
+
+            font-size: 30px;
+            font-size: 50px;
+
+        }
+    </style>
+    <script>
+        let username = prompt("What's you name sir");
+
+        let marry = [
+            'kashish',
+            'komal',
+            'rigzen angmo',
+            'anupriya',
+            'pooja',
+            'sweeta',
+            'Kannu ',
+            'Kashish',
+            'Meera',
+            'Tsladen',
+            'Tanisha'
+            
+
+        ];
+        let date = [
+        'Aniya',
+        'Aniya',
+        'Anushka',
+        'kashish',
+            'komal',
+            'rigzen angmo',
+            'anupriya',
+            'pooja',
+            'sweeta',
+            'Kannu ',
+            'Kashish',
+            'Meera',
+            'Tsladen',
+            'Tanisha'
+        ];
+        let photos = [
+            '<img src=you-suck.jpg>',
+
+        ];
+
+
+        let randomNumber = Math.floor(Math.random() * marry.length);
+        // let friendname= friend[randomNumber];
+        let marryname = marry[randomNumber];
+        let datename = date[randomNumber];
+
+
+
+        document.write("How about , <strong>" + username + "</strong> marry with <strong>" + marryname + " ,and date with " + datename + "</strong> omg,sounds awesome?");
+        document.write("yeah" + photos);
+
+    </script>
+
+
+
+</head>
+
+<body>
+
+</body>
+
+</html>
